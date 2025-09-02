@@ -1,0 +1,12 @@
+[project]
+name = "learn-autogen"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12.11"
+dependencies = [
+    "ag2[openai]>=0.9.9",
+    "autogenstudio==0.4.2.2",
+    "ipykernel>=6.30.1",
+    "pyautogen>=0.9",
+]
